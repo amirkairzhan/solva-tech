@@ -3,14 +3,12 @@ import { Link, useParams } from 'react-router-dom';
 // components
 import Menu from 'components/Menu';
 
-interface Params {
-  contributionType: 'employee' | 'corporate';
-}
+type ContributionType = 'employee' | 'corporate';
 
 const ContributionTypePage: FC = () => {
-  const { contributionType } = useParams<Params>();
+  const { contributionType } = useParams<{ contributionType: ContributionType }>();
 
-  const contributionTitles: Record<'employee' | 'corporate', string> = {
+  const contributionTitles: Record<ContributionType, string> = {
     employee: 'Вклад сотрудников',
     corporate: 'Корпоративный вклад',
   };
