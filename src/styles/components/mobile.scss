@@ -1,0 +1,96 @@
+.mobile-section {
+  padding: 73px 74px 83px 638px;
+  background-image: url("../assets/images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid $c-mobile-border;
+  border-radius: 30px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $screen-md-max) {
+    padding: 73px 6% 83px 53%;
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+    padding: 30px 23px 308px;
+    background-image: url("../assets/images/bg-mobile-xs.png");
+    background-size: 360px 500px;
+    background-position: bottom;
+    text-align: center;
+  }
+}
+
+.mobile-text {
+  margin-bottom: 47px;
+  padding-left: 6px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin-bottom: 20px;
+    padding-left: 0;
+  }
+}
+
+.mobile-title {
+  margin-bottom: 33px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  color: $c-mobile-title;
+
+  @media screen and (max-width: $screen-sm-max) {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin: 0 auto 15px;
+    width: 231px;
+    font-size: 25px;
+    line-height: 26px;
+  }
+}
+
+.mobile-desc {
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: $c-mobile-desc;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding-right: 0;
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.mobile-links {
+  display: flex;
+  align-items: flex-end;
+  gap: 13.5px;
+  list-style: none;
+
+  @media screen and (max-width: $screen-sm-max) {
+    margin: 0 auto;
+    width: 268px;
+    gap: 10px;
+  }
+
+  & svg:first-child {
+    @media screen and (max-width: $screen-xs-max) {
+      width: 129px;
+      height: 39px;
+    }
+  }
+
+  & svg:last-child {
+    @media screen and (max-width: $screen-xs-max) {
+      width: 129px;
+      height: 40px;
+    }
+  }
+}

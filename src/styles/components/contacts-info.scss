@@ -1,0 +1,37 @@
+.contacts-info {
+  @media screen and (max-width: $screen-sm-max) {
+    text-align: center;
+  }
+
+  .phone-number {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 42px;
+    color: $c-contacts-number;
+    text-decoration: none;
+
+    @media screen and (max-width: $screen-sm-max) {
+      display: block;
+      font-size: 28px;
+      line-height: 28px;
+    }
+  }
+
+  .schedule {
+    display: inline-block;
+    margin: 14px 0 0 20px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    color: $c-contacts-shedule;
+    opacity: 0.7;
+
+    @media screen and (max-width: $screen-sm-max) {
+      margin: 7px 0 0;
+      display: block;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+}

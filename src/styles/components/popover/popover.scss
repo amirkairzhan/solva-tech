@@ -1,0 +1,87 @@
+.popover-section {
+  position: absolute;
+  top: 25px;
+  left: -200px;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 780px;
+  background-color: $c-popover-bg;
+  border-radius: 15px;
+  box-shadow: 4px 8px 10px $c-popover-shadow;
+  box-sizing: border-box;
+  z-index: 111;
+
+  @media screen and (max-width: $screen-sm-max) {
+    width: 95vw;
+  }
+}
+
+.popover-individuals-section {
+  left: -200px;
+  @media screen and (max-width: $screen-sm-max) {
+    left: -190px;
+  }
+}
+.popover-business-section {
+  left: -200px;
+  @media screen and (max-width: $screen-sm-max) {
+    left: -290px;
+  }
+}
+
+.popover-link {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: $c-popover-link;
+  text-decoration: none;
+}
+
+// Individuals
+.solva-card-wrapper {
+  margin-bottom: 70px;
+  width: 407px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  row-gap: 20px;
+}
+
+.solva-card {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: $c-popover-solva-bg;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 138px;
+  height: 18px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  box-sizing: border-box;
+}
+
+// Business
+.popover-business {
+  display: flex;
+  gap: 40px;
+}
+
+.popover-business-title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: $c-popover-link;
+  opacity: 0.4;
+}
+
+.popover-business-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

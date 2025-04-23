@@ -1,0 +1,103 @@
+.banner-section {
+  position: relative;
+  margin: 97px 0 30px;
+  padding: 90px 100px 101px;
+  width: 100%;
+  background: url("../assets/images/banner-auto-desktop.png"), linear-gradient(to right, $c-banner-bg-left, $c-banner-bg-right);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto 100%;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $screen-md-max) {
+    padding: 50px;
+    background: url("../assets/images/banner-auto-mobile.png"), linear-gradient(to right, $c-banner-bg-left, $c-banner-bg-right);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin: 70px 0 25px;
+    padding: 45px 30px 350px;
+    background: url("../assets/images/banner-auto-mobile.png"), linear-gradient(to bottom, $c-banner-bg-left, $c-banner-bg-right);
+    background-repeat: no-repeat;
+    background-size: 420px 350px, 100%;
+    background-position: bottom;
+  }
+}
+
+.banner-title {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 73px;
+  color: $c-banner-title;
+
+  @media screen and (max-width: $screen-sm-max) {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 46px;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+  }
+}
+
+.banner-desc {
+  margin-bottom: 40px;
+  width: 459px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: $c-banner-desc;
+
+  @media screen and (max-width: $screen-sm-max) {
+    width: 370px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin: 0 auto 30px;
+    width: 300px;
+    text-align: center;
+  }
+}
+
+.banner-btn {
+  color: $c-banner-button-text;
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 14px 20px;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.banner-link {
+  position: absolute;
+  top: 18px;
+  right: 21px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: $c-banner-link;
+  text-underline-offset: 3px;
+
+  @media screen and (max-width: $screen-xs-max) {
+    top: auto;
+    bottom: 21px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+  }
+}

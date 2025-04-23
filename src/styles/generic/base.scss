@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family-primary;
+  background-color: $c-body-bg;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (max-width: $screen-md-max) {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: $screen-xs) {
+    padding: 0 15px;
+  }
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: $c-darkblue;
+  text-align: center;
+
+  @media screen and (max-width: $screen-xs-max) {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.section {
+  margin-top: 90px;
+
+  @media screen and (max-width: $screen-xs-max) {
+    margin-top: 60px;
+  }
+}

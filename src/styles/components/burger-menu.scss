@@ -1,0 +1,91 @@
+.burger-menu {
+  padding: 0 15px;
+  width: 100%;
+  height: 100%;
+  background-color: $c-burger-bg;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.burger-cooperations-list {
+  padding-top: 55px;
+  list-style: none;
+
+  .burger-cooperation {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    color: $c-burger-text;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+}
+
+.burger-info {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  .contacts-info {
+    gap: 4px;
+    text-align: left;
+
+    .phone-number {
+      font-size: 24px;
+      line-height: 27px;
+    }
+
+    .schedule {
+      margin: 4px 0 0;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      opacity: 0.5;
+    }
+  }
+}
+
+.burger-line {
+  margin: 22px 0 30px;
+  height: 1px;
+  background-color: $c-burger-border;
+  opacity: 0.5;
+}
+
+.burger-whatsapp {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: $c-burger-text;
+}
+
+.burger-socials {
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .burger-download {
+    display: flex;
+    gap: 5px;
+  }
+
+  .socials {
+    gap: 6px;
+  }
+}

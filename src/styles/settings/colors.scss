@@ -1,0 +1,127 @@
+// COLORS
+$c-white: #ffffff;
+$c-whiteblue: #F1F5FF;
+$c-lightblue: #95A8FF;
+$c-darkblue: #233572;
+$c-mediumblue: #89A4FF;
+$c-grayblue: #7A84A6;
+$c-lavenderblue: #7C8FD2;
+$c-red: #F51047;
+$c-darkred: #D00939;
+$c-pink: #FA95AE;
+$c-coralpink: #F489A3;
+$c-lightgray: #F5F5F5;
+$c-gray: #BDCAED;
+$c-lavendergray: #AAAEBE;
+$c-lavender: #E9EFFF;
+$c-darkgray: #404040;
+$c-purple: #9665FF;
+$c-orchid: #8345C8;
+$c-black: #000000;
+$c-lightblack: #222222;
+
+
+
+// body
+$c-body-bg: $c-lightgray;
+
+// pages
+$c-pages-text: $c-darkblue;
+
+// Header
+$c-header-bg: $c-white;
+$c-header-link-text: $c-darkblue;
+$c-header-link-hover: $c-red;
+$c-header-map-text: $c-darkblue;
+$c-header-lang-text: $c-red;
+$c-header-lang-text-hover: $c-white;
+$c-header-lang-bg: $c-white;
+$c-header-lang-bg-hover: $c-red;
+$c-header-lang-border: $c-red;
+$c-header-login-text: $c-white;
+$c-header-login-bg: $c-red;
+$c-header-login-hover: $c-darkred;
+$c-header-shadow: rgba($c-black, 0.2);
+
+// Popover
+$c-popover-bg: $c-white;
+$c-popover-solva-bg: linear-gradient(90deg, $c-red, #7A4DD3);
+$c-popover-link: $c-darkblue;
+$c-popover-menu-bg: #F0F4FF80;
+$c-popover-contacts: $c-darkblue;
+$c-popover-shadow: rgba($c-black, 0.3);
+
+// Burger
+$c-burger-bg: $c-whiteblue;
+$c-burger-btn: $c-darkblue;
+$c-burger-text: $c-darkblue;
+$c-burger-border: #A1B6FF99;
+
+// Banner
+$c-banner-bg-left: $c-red;
+$c-banner-bg-right: $c-darkred;
+$c-banner-title: $c-white;
+$c-banner-desc: $c-white;
+$c-banner-button-text: $c-red;
+$c-banner-link: $c-white;
+
+// Menu
+$c-menu-bg: $c-white;
+$c-menu-text: $c-darkblue;
+
+// Products
+$c-products-title: $c-white;
+$c-products-desc: $c-white;
+$c-products-bg: $c-lightblue, $c-pink, $c-lightblue, linear-gradient(to bottom, $c-purple, $c-coralpink);
+$c-products-btn-text: $c-darkblue, $c-red, $c-darkblue, $c-orchid;
+$c-products-btn-text-hover: $c-white;
+$c-products-btn-bg-hover: $c-darkblue, $c-red, $c-darkblue, $c-pink;
+
+// Calculator
+$c-calc-btn: $c-lightblack;
+$c-calc-btn-bg: $c-lightgray;
+$c-calc-btn-border: $c-darkblue;
+$c-calc-btn-active: $c-white;
+$c-calc-btn-active-bg: $c-mediumblue;
+$c-calc-disclaimer: $c-lavendergray;
+$c-slider-bg: $c-lavender;
+// Range Slider
+$c-calc-range-bg: $c-red;
+$c-calc-range-title: $c-darkgray;
+$c-calc-range-value: $c-darkblue;
+$c-calc-range-label: $c-lavendergray;
+$c-calc-month-payment: $c-white;
+$c-calc-month-shadow: rgba($c-lavenderblue, 0.23);
+$c-calc-month-title: $c-darkgray;
+$c-calc-month-number: $c-darkblue;
+
+// Mobile
+$c-mobile-title: $c-darkblue;
+$c-mobile-desc: $c-darkblue;
+$c-mobile-border: $c-gray;
+
+// Awards
+$c-awards-bg: $c-lavender;
+$c-awards-text: $c-darkblue;
+
+// Payment
+$c-payment-bg: $c-lightblue;
+$c-payment-title: $c-white;
+$c-payment-btn-text: $c-white;
+$c-payment-btn-text-hover: $c-lightblue;
+$c-payment-btn-bg: $c-lightblue;
+$c-payment-btn-bg-hover: $c-white;
+$c-payment-border: $c-white;
+
+// Footer
+$c-contacts-bg: $c-white;
+$c-contacts-number: $c-darkblue;
+$c-contacts-shedule: $c-darkblue;
+$c-footer-bg: $c-white;
+$c-footer-text: $c-darkblue;
+$c-footer-copyright: $c-grayblue;
+
+// Shared
+$c-button-bg: $c-white;
+$c-button-bg-hover: $c-pink;
+$c-button-text-hover: $c-white;

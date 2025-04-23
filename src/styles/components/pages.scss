@@ -1,0 +1,21 @@
+.pages-wrapper {
+  margin-top: 100px;
+
+  .menu-item {
+    margin: 20px 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.pages-title {
+  margin-top: 30px;
+  color: $c-pages-text;
+}
+
+.pages-path {
+  margin: 20px 0;
+  color: $c-pages-text;
+}

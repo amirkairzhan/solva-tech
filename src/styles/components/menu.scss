@@ -1,0 +1,130 @@
+.menu-section {
+  &--desktop {
+    padding: 39px 32px 36px 130px;
+    width: 100%;
+    background-color: $c-menu-bg;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    @media screen and (max-width: $screen-md-max) {
+      padding: 30px;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      padding: 0;
+      background-color: $c-lightgray;
+    }
+  }
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  box-sizing: border-box;
+
+  &--desktop {
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $screen-xs-max) {
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 10px;
+      row-gap: 15px;
+    }
+  }
+
+  &--burger {
+    margin-top: 55px;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 14px;
+  }
+
+  &--popover {
+    background-color: $c-popover-menu-bg;
+    padding: 18px 15px;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 10px;
+  }
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  color: $c-menu-text;
+
+  &--desktop {
+    gap: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    text-decoration: none;
+
+    @media screen and (max-width: $screen-sm-max) {
+      font-size: 15px;
+      line-height: 19px;
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      padding: 10px;
+      font-size: 13px;
+      line-height: 15px;
+      gap: 5px;
+      background-color: $c-menu-bg;
+      border-radius: 9px;
+      box-sizing: border-box;
+    }
+
+    &:nth-child(2) {
+      @media screen and (max-width: $screen-xs-max) {
+        order: 4;
+      }
+    }
+    &:nth-child(4) {
+      @media screen and (max-width: $screen-xs-max) {
+        order: 5;
+      }
+    }
+
+    svg {
+      @media screen and (max-width: $screen-sm-max) {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+
+  &--burger {
+    padding: 10px 12px;
+    gap: 6px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 9px;
+    background-color: $c-menu-bg;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+
+    svg {
+      width: 17px;
+      height: 17px;
+    }
+  }
+
+  &--popover {
+    gap: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+
+    & svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+}

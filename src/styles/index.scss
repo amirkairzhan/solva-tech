@@ -1,0 +1,37 @@
+// settings
+@import "settings/colors";
+@import "@styles/settings/fonts";
+@import "settings/variables";
+
+
+// mixins
+// your files here
+
+// generic
+@import "generic/base";
+
+// elements
+// your files here
+
+// components
+@import "components/awards";
+@import "components/banner";
+@import "components/burger-button";
+@import "components/burger-menu";
+@import "components/button";
+@import "components/calculator/calculator";
+@import "components/calculator/range-slider";
+@import "components/contacts-info";
+@import "components/footer";
+@import "components/header";
+@import "components/lang-btn";
+@import "components/menu";
+@import "components/mobile";
+@import "components/pages";
+@import "components/payment";
+@import "components/popover/popover";
+@import "components/popover/contacts";
+@import "components/products";
+@import "components/socials";
+
+// your files here

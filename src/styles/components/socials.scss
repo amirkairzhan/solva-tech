@@ -1,0 +1,14 @@
+.socials {
+  display: flex;
+  gap: 15px;
+
+  @media screen and (max-width: $screen-sm-max) {
+    justify-content: center;
+    gap: 20px;
+
+    svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
+}

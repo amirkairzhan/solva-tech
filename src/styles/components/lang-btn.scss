@@ -1,0 +1,26 @@
+.lang-btn {
+  display: flex;
+  align-items: flex-start;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid $c-header-lang-border;
+  color: $c-header-lang-text;
+  background-color: $c-header-lang-bg;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.13px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 5px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &:hover {
+    color: $c-header-lang-text-hover;
+    background-color: $c-header-lang-bg-hover;
+  }
+}
